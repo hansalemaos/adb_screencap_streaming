@@ -21,6 +21,9 @@ for ka in bilder.get_adb_screenshots(
     interpolation=cv2.INTER_AREA,
 ):
     print('Do some stuff here', end='\r')
+    break #if you break out of the loop, stop capturing 
+    
+bilder.kill_screencap()
 
 ```
 
