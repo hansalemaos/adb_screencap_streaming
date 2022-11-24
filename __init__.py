@@ -27,9 +27,9 @@ class ADBScreenshot:
         keyboardx___.add_hotkey(self.show_fps_keys, self._show_fps_keys_switch)
         self.popenpid = None
         self.kill_screencap_keys = kill_screencap_keys
-        keyboardx___.add_hotkey(self.kill_screencap_keys, self._kill_screencap)
+        keyboardx___.add_hotkey(self.kill_screencap_keys, self.kill_screencap)
 
-    def _kill_screencap(self):
+    def kill_screencap(self):
         self.show_capture = False
         self.show_fps = False
         sleep(1)
