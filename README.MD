@@ -1,3 +1,6 @@
+# Use:
+# https://github.com/hansalemaos/usefuladb
+# https://github.com/hansalemaos/usefuladbplus
 ### Grab screenshots from ADB's screencap and process them right away
 
 ```python
